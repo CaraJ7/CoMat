@@ -18,7 +18,7 @@ Official repository for the paper "[CoMat: Aligning Text-to-Image Diffusion Mode
 
 We propose 💫CoMat, an end-to-end diffusion model fine-tuning strategy with an image-to-text concept matching mechanism. We leverage an image captioning model to measure image-to-text alignment and guide the diffusion model to revisit ignored tokens.
 
-![demo](/Users/cara/0Code/Opensource/CoMat/fig/demo.png)
+![demo](fig/demo.png)
 
 ## :white_check_mark: Citation
 
