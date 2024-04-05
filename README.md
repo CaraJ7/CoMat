@@ -1,15 +1,15 @@
 # 💫CoMat: Aligning Text-to-Image Diffusion Model with Image-to-Text Concept Matching
 
-Official repository for the paper "[CoMat: Aligning Text-to-Image Diffusion Model with Image-to-Text Concept Matching]()".
+Official repository for the paper "[CoMat: Aligning Text-to-Image Diffusion Model with Image-to-Text Concept Matching](https://arxiv.org/pdf/2404.03653.pdf)".
 
 🌟 For more details, please refer to the project page: [https://caraj7.github.io/comat/](https://caraj7.github.io/comat/).
 
-[[🌐 Webpage](https://caraj7.github.io/comat/)] [[📖 Paper]()] 
+[[🌐 Webpage](https://caraj7.github.io/comat/)] [[📖 Paper](https://arxiv.org/pdf/2404.03653.pdf)] 
 
 
 ## 💥 News
 
-- **[2024.04.05]** 🚀 We release our paper on [arXiv]().
+- **[2024.04.05]** 🚀 We release our paper on [arXiv](https://arxiv.org/pdf/2404.03653.pdf).
 
 ## 📌 TODO
 - [ ] Release training code in April.
