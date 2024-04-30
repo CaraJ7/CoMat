@@ -9,3 +9,4 @@ tensorboard
 spacy
 accelerate
 shortuuid
+xformers==0.0.24
