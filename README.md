@@ -11,6 +11,8 @@ Official repository for the paper "[CoMat: Aligning Text-to-Image Diffusion Mode
 
 ## 💥 News
 
+- **[2024.09.26]** 🎉 CoMat is accepted by Neurips 2024!
+
 - **[2024.04.30]** 🔥 We release the training code of CoMat.
 
 - **[2024.04.05]** 🚀 We release our paper on [arXiv](https://arxiv.org/pdf/2404.03653.pdf).
