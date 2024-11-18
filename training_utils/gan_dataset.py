@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from PIL import Image
 import os
 # from petrel_client.client import Client
-from aoss_client.client import Client
+# from aoss_client.client import Client
 
 import torch
 from torch.utils.data import Dataset
@@ -48,7 +48,7 @@ class Gan_Dataset(Dataset):
         elif 'json' in args.training_prompts:
             self.ann = json.load(open(args.training_prompts, 'r'))
         
-        self.client = Client('~/aoss.conf')
+        # self.client = Client('~/aoss.conf')
 
     def __len__(self):
         return len(self.ann)
@@ -58,10 +58,10 @@ class Gan_Dataset(Dataset):
         example['text'] = self.ann[index]['prompt']
         latent_path = self.ann[index]['file_path'] if not isinstance(self.ann[index]['file_path'], list) else random.choice(self.ann[index]['file_path'])
         # use ceph
-        with io.BytesIO(self.client.get(latent_path)) as f:
-            latents = torch.load(f)
+        # with io.BytesIO(self.client.get(latent_path)) as f:
+        #     latents = torch.load(f)
         # use disk
-        # latents = torch.load(f)
+        latents = torch.load(latent_path)
         
         example['latents'] = latents
         
